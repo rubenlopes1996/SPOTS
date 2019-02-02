@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".StatisticsActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarStatistics"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Users:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewRegisteredUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registered users: " />
+
+    <TextView
+        android:id="@+id/textViewAuthenticatedUsers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Authenticated users: " />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Spots:"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewTimeSpending"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tme spending by:" />
+
+    <TextView
+        android:id="@+id/textViewClosestSpot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distance: " />
+
+    <TextView
+        android:id="@+id/textViewRatesSpot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Best Rating:" />
+
+    <TextView
+        android:id="@+id/textViewMyFavoritesSpot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My favorites:" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top 5 spots by Rating:" />
+
+    <TextView
+        android:id="@+id/textViewSpot1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewSpot2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewSpot3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewSpot4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewSpot5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top 5 most added Spots from users favorites :" />
+
+    <TextView
+        android:id="@+id/textViewFavSpot1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewFavSpot2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewFavSpot3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewFavSpot4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewFavSpot5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Top 5 Spots most used by all users: " />
+
+    <TextView
+        android:id="@+id/textViewMustUsedSpot1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewMustUsedSpot2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewMustUsedSpot3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewMustUsedSpot4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewMustUsedSpot5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/buttonGraphs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Open graphs"
+        android:onClick="openGraphsActivity"/>
+
+</LinearLayout>

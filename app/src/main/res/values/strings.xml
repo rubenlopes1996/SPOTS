@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FirebaseAuth</string>
+    <string name="passwordMismatch">Password and password validation should match</string>
+    <string name="invalidEmail">Invalid email. The email should be of type email@domain.com</string>
+    <string name="invalidAge">Please introduce a valid age. Age should be between 18-99</string>
+    <string name="emptyFields">Please fill all the fields</string>
+    <string name="emailAlreadyUsed">This email is already in use. Please verify your email field</string>
+    <string name="OK">Ok</string>
+    <string name="invalidLenghtPassword">Minimum lenght of password should be 6</string>
+    <string name="invalidCredentials">Invalid credentials</string>
+    <string name="dashboardTitle">Dashboard</string>
+    <string name="guestDashboardTitle">Guest Dashboard</string>
+    <string name="google_maps_key">AIzaSyBKomAsaDRpHv_TYxGyMyIozepiuUlYcdo</string>
+    <string name="emptyPassword">Password is required.</string>
+    <string name="emptyName">Name is required.</string>
+    <string name="emptyAge">Age is required.</string>
+    <string name="successfullEditProfile">Profile was updated with success.</string>
+    <string name="leaveSpotQuestion">Are you leaving the spot?</string>
+    <string name="takeSpotQuestion">Are you parking?</string>
+    <string name="preferenceChangeQuestion">You dont have any preference. Want to change your preference?</string>
+    <string name="errorfavorite">Error! Spot already is your favorite</string>
+    <string name="succesSpot">Spot added with success</string>
+    <string name="noFavorites">You dont have favorites.</string>
+    <string name="removeFavoritesQuestion">Are you sure you want to remove the spot from favorites?</string>
+    <string name="removedFavorites">Favorite removed successfully</string>
+</resources>

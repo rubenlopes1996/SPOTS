@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewGuestDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/buttonGuestDashboardLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="7dp"
+        android:background="@drawable/rounded_button_solid"
+        android:onClick="onClickLogin"
+        android:text="Login/Register"
+        android:textAllCaps="false"
+        android:textColor="@color/colorAccent" />
+
+    <fragment
+        android:id="@+id/guestDashboardMap"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="407dp" />
+
+    <TextView
+        android:id="@+id/textViewGuestDashboardMap"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="Park selected Parque A" />
+
+    <TextView
+        android:id="@+id/textViewGuestFreeSpots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Free Spots: " />
+
+    <TextView
+        android:id="@+id/textViewGuestBusySpots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Busy Spots: " />
+
+    <TextView
+        android:id="@+id/textViewGuestLastUpdatedSpots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last update:" />
+</LinearLayout>

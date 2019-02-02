@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/userDashboardMap"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DashboardActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarDashboard"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" />
+
+    <TextView
+        android:id="@+id/textViewSelectAPark"
+        android:layout_width="108dp"
+        android:layout_height="wrap_content"
+        android:text="Select a Park" />
+
+    <Spinner
+        android:id="@+id/parkSpinner"
+        android:layout_width="194dp"
+        android:layout_height="wrap_content"
+        />
+
+    <Button
+        android:id="@+id/findMeASpot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find me a Spot" android:onClick="findMeSpot"/>
+
+    <Button
+        android:id="@+id/dashboardMySpot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Spot"
+        android:onClick="mySpot"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="31dp" />
+
+    <fragment
+        android:id="@+id/userLoggedDashBoardMap"
+        android:name="com.bumptech.glide.manager.SupportRequestManagerFragment"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="295dp" />
+
+    <TextView
+        android:id="@+id/textViewDashboardMap"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="Parque A" />
+
+    <TextView
+        android:id="@+id/textViewFreeSpots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Free Spots: " />
+
+    <TextView
+        android:id="@+id/textViewBusySpots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Busy Spots: " />
+
+    <TextView
+        android:id="@+id/textViewLastUpdatedSpots"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last update:" />
+
+    <TextView
+        android:id="@+id/txtLatLng"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textViewCurrentSpotId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Parked at: " />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="24dp" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:srcCompat="@color/colorPrimary" />
+
+</LinearLayout>

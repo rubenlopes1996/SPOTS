@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "1011988114805",
+    "firebase_url": "https://spots-taes.firebaseio.com",
+    "project_id": "spots-taes",
+    "storage_bucket": "spots-taes.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011988114805:android:9fca94034b500c28",
+        "android_client_info": {
+          "package_name": "com.example.rubenfilipe.spots"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011988114805-akocrvfsc794f2h8ba7gmc9ifcg08n6o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rubenfilipe.spots",
+            "certificate_hash": "bc10e3f468fd3424f57dba88e087da27e0711fb9"
+          }
+        },
+        {
+          "client_id": "1011988114805-3rtigt3t5ijs8mo3a1t5vffflittvq01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rubenfilipe.spots",
+            "certificate_hash": "1c8754ec9f2e16035eaded2a56bbb61f0f4de484"
+          }
+        },
+        {
+          "client_id": "1011988114805-7h47h2l1gv8g5viogd4elr4sd2fpe85a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.rubenfilipe.spots",
+            "certificate_hash": "5918fb3adeb259fe77757900a919260ae47af125"
+          }
+        },
+        {
+          "client_id": "1011988114805-g8qpo4kj3c9ncpe1mn0jdltcue986fuj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFuk-JvLA8yPRU9xvoUanqpv7Gobkezdw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011988114805-g8qpo4kj3c9ncpe1mn0jdltcue986fuj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
